@@ -24,6 +24,7 @@ The framework supports constellation modeling, routing-policy evaluation, satell
 * HDF5-based storage for generated constellation and delay data
 
 ---
+
 ## Routing Policy Plugin Structure
 
 The `routing_policy_plugin/` directory contains the main routing and multicast forwarding implementations used by BIER-Star.
@@ -43,6 +44,8 @@ routing_policy_plugin/
 ├── h3_bier/                                 # H3-BIER geographic multicast modules
 ├── h3_routing/                              # H3-based geographic routing modules
 └── Yeti/                                    # YETI multicast routing modules
+```
+
 ---
 
 ## Installation
