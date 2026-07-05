@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+*.key
+*.pem
+
+# Logs / outputs
+*.log
+data/results/
+results/
+output/
+
+# MATLAB
+*.asv
+*.m~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+CesiumAPP/Cesium/
