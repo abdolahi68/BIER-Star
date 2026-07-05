@@ -24,6 +24,26 @@ The framework supports constellation modeling, routing-policy evaluation, satell
 * HDF5-based storage for generated constellation and delay data
 
 ---
+## Routing Policy Plugin Structure
+
+The `routing_policy_plugin/` directory contains the main routing and multicast forwarding implementations used by BIER-Star.
+
+```text
+routing_policy_plugin/
+├── shortest_path.py                         # Shortest-path routing
+├── second_shortest_path.py                  # Second-shortest-path routing
+├── least_hop_path.py                        # Least-hop routing
+├── BIER_shortest_path.py                    # BIER-Star routing entry point
+├── controlled_experiment_definition.py      # Controlled experiment settings
+├── controlled_experiment_plots.py           # Plotting utilities
+├── adjacent_served_cells_forwarding_extent_experiment.py
+├── hop_distance_experiment.py
+├── BIER/                                    # Core BIER forwarding modules
+├── BIER_TE/                                 # BIER-TE forwarding modules
+├── h3_bier/                                 # H3-BIER geographic multicast modules
+├── h3_routing/                              # H3-based geographic routing modules
+└── Yeti/                                    # YETI multicast routing modules
+---
 
 ## Installation
 
